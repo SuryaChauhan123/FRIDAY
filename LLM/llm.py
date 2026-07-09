@@ -104,9 +104,7 @@ volume_control
 
 {
     "intent":"volume_control",
-    "action":"increase | decrease | mute | unmute | set",
-    "amount":10,
-    "level":50
+    "value":".."
 }
 
 brightness_control
@@ -209,15 +207,14 @@ Output:
 --------------------------------------------------
 
 User:
-Increase the volume by 20% and take a screenshot.
+set the volume to 20 and take a screenshot.
 
 Output:
 
 [
   {
     "intent":"volume_control",
-    "action":"increase",
-    "amount":20
+    "value":20
   },
   {
     "intent":"take_screenshot"

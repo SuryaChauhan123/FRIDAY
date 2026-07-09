@@ -12,5 +12,5 @@ while True:
     for task in tasks:
         intent=extract_intent(task)
         print(intent)
-        execute(intent,user)
+        execute(intent,task)
 

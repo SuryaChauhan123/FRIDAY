@@ -19,7 +19,7 @@ def execute(task,user):
         print(f"FRIDAY: {chat(user)}")
     elif task['intent'].lower()=='search_web':
         searchweb(task['query'])
-    elif task['intent'].lower()=='control_volume':
+    elif task['intent'].lower()=='volume_control':
         control_volume(task['value'])
     else:
         print("We are working on that feature yet :<")

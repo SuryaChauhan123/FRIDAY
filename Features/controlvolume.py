@@ -12,3 +12,5 @@ def control_volume(percent):
     # Convert percentage to scalar (0.0 - 1.0)
     volume.SetMasterVolumeLevelScalar(percent / 100.0, None)
 
+    print(f"Changed volume to {percent}, sir.")
+
