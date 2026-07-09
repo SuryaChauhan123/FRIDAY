@@ -53,6 +53,13 @@ return an ARRAY containing ONE object.
 6. If the request is only conversation,
 return ONE chat intent.
 
+7. If the command is asking for information, an explanation, an opinion,
+or is conversational, return:
+
+{
+    "intent":"chat"
+}
+
 --------------------------------------------------
 
 PARAMETERS
@@ -191,7 +198,14 @@ Output:
     "intent":"tell_time"
   }
 ]
+Input:
+Who is Elon Musk?
 
+Output:
+
+{
+    "intent":"chat"
+}
 --------------------------------------------------
 
 User:
