@@ -3,3 +3,4 @@ __pycache__/
 Models/
 *.onnx
 *.bin
+node_modules/
