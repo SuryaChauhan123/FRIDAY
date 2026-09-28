@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>FRIDAY</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="sidebar-upper">
+        <div class="logo sidebar-btn"></div>
+        <div class="btn sidebar-btn">
+          <i data-lucide="message-square" class="lucide"></i>
+        </div>
+        <div class="btn sidebar-btn">
+          <i data-lucide="clock" class="lucide"></i>
+        </div>
+      </div>
+      <div class="sidebar-lower">
+        <div class="btn sidebar-btn">
+          <i data-lucide="star" class="lucide"></i>
+        </div>
+        <div class="btn sidebar-btn">
+          <i data-lucide="sun" class=""></i>
+        </div>
+        <div class="btn sidebar-btn">
+          <i data-lucide="settings"></i>
+        </div>
+      </div>
+    </div>
+    <div class="chat-container">
+    </div>
+    <div class="search-bar">
+      <i data-lucide="search"></i>
+      <input type="text" placeholder="Ask FRIDAY..." id="userInput" />
+      <button class="voice-btn">
+        <i data-lucide="mic"></i>
+      </button>
+    </div>
+    <div class="sidebar-lower"></div>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

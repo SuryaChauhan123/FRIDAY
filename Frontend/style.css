@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #0E0F13;
+}
+
+.lucide{
+    color: #5BE5F2;
+    width: 20px;
+}
+
+.sidebar{
+    width: 70px;
+    height: 100vh;
+    background-color: #16191E;
+    border-right: 1px solid #2c313a;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-upper{
+    width: 100%;
+    height: fit-content;
+}
+
+.sidebar-lower{
+    width: 70px;
+    height: fit-content;
+}
+.sidebar-btn{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin: 14px;
+    cursor: pointer;
+}
+
+.sidebar-btn:hover{
+    background-color: #1C2D35;
+}
+
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 12px 0 18px;
+    background: #0E1A2C;
+    border: 1px solid #2a3445;
+    border-radius: 15px;
+    z-index: 1000;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+}
+
+.voice-btn {
+    width: 38px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+
+    cursor: pointer;
+}
+
+.voice-btn:hover {
+    background: #1a2940;
+}
+
+.chat-container {
+    width: 700px;
+    margin: 0 auto;
+    padding: 30px 0 120px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user-message {
+    align-self: flex-end;
+
+    max-width: 70%;
+    padding: 12px 16px;
+
+    background: #593CEA;
+    color: white;
+
+    border-radius: 15px 15px 3px 15px;
+}
+
+.friday-message {
+    align-self: flex-start;
+
+    max-width: 70%;
+    padding: 12px 16px;
+
+    background: #0E1A2C;
+    color: white;
+
+    border-radius: 15px 15px 15px 3px;
+}
