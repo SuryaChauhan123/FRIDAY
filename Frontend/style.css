@@ -46,6 +46,13 @@ body{
     background-color: #1C2D35;
 }
 
+.logo-img{
+    background-image: url(logo.png);
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
 
 .btn{
     display: flex;
